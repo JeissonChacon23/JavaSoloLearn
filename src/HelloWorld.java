@@ -1,11 +1,17 @@
+import java.util.Scanner;
 public class HelloWorld{
     public static void main(String[] args) throws Exception {
-        //Comments 
-        //Storing the age of the user
-        int age = 23; // this is just a demo value
+        //Input
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Name: ");
+        String name = sc.nextLine();
+        System.out.println("Age: ");
+        int age = sc.nextInt();
+        //nextDouble(), nextFloat(), nextBoolean().
+        System.out.println("Name: "+ name +"\nAge: "+ age);
 
-        /* This is just a
-        demo program
-        that outputs a number */
+        System.out.println("Amount: ");
+        double amount = sc.nextDouble();
+        System.out.println(amount * 0.15);
     }
 }
