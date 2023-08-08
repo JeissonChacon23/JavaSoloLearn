@@ -1,12 +1,11 @@
 public class HelloWorld{
     public static void main(String[] args) throws Exception {
-        //Doing math
-        double x = 100;
-        double y = 10;
-        System.out.println("\n"+ x % y);
-        System.out.println("\n"+ x / y);
-        System.out.println("\n"+ x * y);
-        System.out.println("\n"+ x + y +"\n");
-        System.out.println(x - y);
+        //Comments 
+        //Storing the age of the user
+        int age = 23; // this is just a demo value
+
+        /* This is just a
+        demo program
+        that outputs a number */
     }
 }
