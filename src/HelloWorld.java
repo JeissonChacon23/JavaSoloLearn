@@ -1,11 +1,12 @@
 public class HelloWorld{
     public static void main(String[] args) throws Exception {
-        String name = "Jeisson";
-        int age = 27;
-        double height = 1.70;
-        float weight = 62.50f;
-        char sex = 'M';
-        boolean colombian = true;
-        System.out.println("\n\nName: "+ name +"\nAge: "+ age +"\nHeight: "+ height + "\nWeight: "+ weight +"\nSex: "+ sex +"\nColombian: "+ colombian);
+        //Doing math
+        double x = 100;
+        double y = 10;
+        System.out.println("\n"+ x % y);
+        System.out.println("\n"+ x / y);
+        System.out.println("\n"+ x * y);
+        System.out.println("\n"+ x + y +"\n");
+        System.out.println(x - y);
     }
 }
