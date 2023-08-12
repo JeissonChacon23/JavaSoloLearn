@@ -1,16 +1,18 @@
 import java.util.Scanner;
 public class HelloWorld{
     public static void main(String[] args) throws Exception {
-        //Multiple conditions
-        Scanner sc = new Scanner(System.in);
-        int age = sc.nextInt();
-        
-        if(age >= 0 && age <= 11){
-            System.out.println("Child");
-        }else if(age >= 12 && age <= 17){
-            System.out.println("Teen");
-        }else if(age >= 18 && age <= 64){
-            System.out.println("Adult");
+        //While
+        int x = 3;
+        while(x > 0){
+            System.out.println(x + "\n");
+            x--;
         }
+
+        //Do while
+        int y = 1;
+        do{
+            System.out.println(y);
+            y++;
+        }while(y < 5);
     }
 }
