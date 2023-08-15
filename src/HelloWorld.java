@@ -1,29 +1,26 @@
 import java.util.Scanner;
 public class HelloWorld{
     public static void main(String[] args) throws Exception {
-        //Methods
-        Welcome();
-        Login();
-        bot();;
+        //Method parameters
+        welcome("Jeisson");
+        demo(8, 3);
+        convert(4);
     }
 
-    
-    static void Welcome(){
-            System.out.println("Hello");
+    static void welcome(String name){
+        System.out.println("Welcome "+ name);
+    }
+
+    static void demo(int x, int y) {
+        if(x<y) {
+          System.out.println(x+y);
+        } else {
+          System.out.println(x%y);
         }
-    static void Login(){
-            System.out.println("Login");
-        }
-    static void bot(){
-        Scanner sc = new Scanner(System.in);
-        int number = sc.nextInt();
-        if(number == 1){
-            System.out.println("Order confirmed");
-        }else if(number == 2){
-            System.out.println("info@sololearn.com");
-        }else{
-            System.out.println("Try again");
-        }
+    }
+    static void convert(double foot){
+        double inche = foot * 12;
+        System.out.println(inche);
     }
 }
 
