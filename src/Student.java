@@ -8,4 +8,9 @@ public class Student {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public Student(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
 }
