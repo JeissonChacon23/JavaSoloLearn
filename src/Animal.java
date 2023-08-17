@@ -1,5 +1,4 @@
-
-abstract class Animal {
-    protected int legs = 0;
-    abstract void makeSound();
+interface Animal {
+    public void eat();
+    public void makeNoise();
 }
