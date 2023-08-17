@@ -1,4 +1,2 @@
-interface Animal {
-    public void eat();
-    public void makeNoise();
+abstract class Animal implements Swimmer, Player{
 }
